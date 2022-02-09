@@ -132,8 +132,8 @@ def imageCompress(quality, subsampling, img_item, notfound_imgs, jpga, output):
         #     return
         
         # 只压缩大于100KB图片
-        if byteSizeBefore < 102400:
-            return
+        #if byteSizeBefore < 102400:
+        #    return
 
         # 区别jpg、png
         if img_item.endswith('.png') or img_item.endswith('.PNG'):
